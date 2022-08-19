@@ -50,8 +50,8 @@ def reverse_string(str)
 #  new_string
   # string = str.chars.reduce { |x, y| y + x } 
   # puts string
-  new_array = []
-  formatted_string = str.chars
-  new_array << formatted_string.pop until formatted_string.empty?
-  new_array.join
+  # new_array = []
+  # formatted_string = str.chars
+  # new_array << formatted_string.pop until formatted_string.empty?
+  # new_array.join
 end
